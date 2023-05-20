@@ -1,11 +1,123 @@
-.main {
+.header {
+  display: flex;
+  justify-content: center;
+  box-shadow: inset 0 -1px 0 0 #eaeaea;
+  height: 80px;
+}
+
+button.btn {
+  padding: 8px 15px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  padding: 0.75rem 2rem;
+  grid-gap: 6px;
+  gap: 6px;
+  font-family: var(--font-sans);
+  border-radius: 0.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  white-space: nowrap;
+  transition: background .2s ease, border .2s ease, color .2s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0,0,0,.3);
+}
+
+button.btn-primary {
+  background: #583563;
+  color: white;
+  border: 1px solid #583563;
+}
+
+button.btn-primary:hover {
+  background: #fff;
+  color: #583563;
+}
+
+button.btn-secondary {
+  background: #fff;
+  color: #666;
+  border: 1px solid #eaeaea;
+}
+
+button.btn-secondary:hover {
+  color: #000;
+  border: 1px solid #000;
+}
+
+.banner-section {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.banner-section > .copy {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  justify-content: center;
+  padding: 0 5rem;
 }
+
+.banner-section > .contact-button {
+  display: flex;
+  align-items: end;
+}
+
+.banner-section > .image {
+  border-radius: 15px;
+}
+
+.about-section {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  background-color: #583563;
+  padding: 2rem 5rem;
+}
+
+.about-section > .copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5rem;
+}
+
+.about-section > .contact-button {
+  display: flex;  
+  align-items: end;
+}
+
+.about-section > .image {
+  border-radius: 15px;
+}
+
+.practice-areas-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 5rem;
+}
+
+.practice-areas-section .copy {
+  font-size: 20px;
+  padding-bottom: 1rem;
+}
+
+.practice-areas-button {
+  display: flex;
+  align-items: end;
+}
+
+
+/* next js styles that could be cool */
 
 .description {
   display: inherit;
@@ -47,6 +159,7 @@
 }
 
 .card {
+  color: #583563;
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
   background: rgba(var(--card-rgb), 0);

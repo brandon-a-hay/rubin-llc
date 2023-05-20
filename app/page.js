@@ -1,95 +1,100 @@
 import Image from 'next/image'
-import styles from './page.module.css'
+import styles from './page.css'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
+    <div className='main'>
+      <div className='header'>
+        <Image src={'/logo-horizontal.svg'} alt='logo' width={250} height={79}></Image>
+      </div>
+      <div className='banner-section'>
+        <Image 
+          className='image'
+          src={'/hero-image.jpeg'} alt='daniel-rubin.jpg' width={338} height={500}></Image>
+        <div className='copy'>
+          <h2>Litigating matters that matter with compassion, skill, and excellence.</h2>
+          <div className='contact-button'>
+            <button className='btn btn-primary'>Contact</button>
+          </div>
+        </div>
+      </div>
+      <div className='about-section'>
+        <Image className='image' src={'/profile-pic.png'} alt='about-daniel' height={329} width={307}></Image>
+        <div className='copy'>
+          <h2>I&#39;m Danel Rubin. My insatiable quest for justice shines through my willingness to fight battles that matter.</h2>
+          <div className='about-button'>
+            <button className='btn btn-secondary'>About Daniel</button>
+          </div>
+        </div>
+        {/* put in some blurb about Danny and a photo with link to /about page */}
+      </div>
+      <div className='practice-areas-section'>
+        <div className='copy'>
+          Rubin Law represents individuals in personal injury, wrongful death, and employment matters.
+          Daniel Rubin tirelessly serves members of the community who have been wronged or injured and 
+          takes the cases that make a meaningful difference in people’s lives. 
+          He does not shy away from the tough cases because he maintains the experience, the energy, 
+          and the grit to handle them effectively. Rubin Law litigates cases with purpose and passion. 
+          The critical mission is always to obtain justice for those who have suffered from the wrongdoing of others.
+        </div>
+
+        <div className='grid'>
           <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            className='card'
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
+            <h2>Practice Area 1 <span>-&gt;</span></h2>
+            <p>Learn more about Rubin Law&apos;s work in this area</p>
+          </a>
+
+          <a
+            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            className='card'
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>Practice Area 2 <span>-&gt;</span></h2>
+            <p>Learn more about Rubin Law&apos;s work in this area</p>
+          </a>
+
+          <a
+            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            className='card'
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>Practice Area 3 <span>-&gt;</span></h2>
+            <p>Learn more about Rubin Law&apos;s work in this area</p>
+          </a>
+
+          <a
+            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            className='card'
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>Practice Area 4<span>-&gt;</span></h2>
+            <p>Learn more about Rubin Law&apos;s work in this area</p>
           </a>
         </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className='relevant-law-section section'>
+        <h3>Relevant Law</h3>
+        {/* blurb about some relevant law */}
       </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <div className='awards-certifications-section section'>
+        <h3>Awards & Certifications</h3>
+        {/* mention and display awards and certifications */}
       </div>
-    </main>
+      <div className='blog-section section'>
+        <h3>Blog</h3>
+        {/* maybe a snippet of the latest blog post and link to the blog page */}
+      </div>
+      <div className='contact-us-form'>
+        <h3>Contact us</h3>
+      </div>
+    </div>
   )
 }
