@@ -54,7 +54,8 @@ button.btn-secondary:hover {
   background: #fff;
   display: flex;
   justify-content: space-between;
-  padding: 2rem 0;
+  padding: 2rem 5rem;
+  box-shadow: inset 0 -1px 0 0 #eaeaea;
 }
 
 .banner-section > .copy {
@@ -80,6 +81,7 @@ button.btn-secondary:hover {
   justify-content: space-between;
   background-color: #583563;
   padding: 2rem 5rem;
+  box-shadow: inset 0 -1px 0 0 #eaeaea;
 }
 
 .about-section > .copy {
@@ -104,6 +106,7 @@ button.btn-secondary:hover {
   flex-direction: column;
   align-items: center;
   padding: 2rem 5rem;
+  box-shadow: inset 0 -1px 0 0 #eaeaea;
 }
 
 .practice-areas-section .copy {
@@ -114,6 +117,42 @@ button.btn-secondary:hover {
 .practice-areas-button {
   display: flex;
   align-items: end;
+}
+
+.relevant-law-section {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 5rem;
+  box-shadow: inset 0 -1px 0 0 #eaeaea;
+}
+
+.awards-certifications-section {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 5rem;
+  box-shadow: inset 0 -1px 0 0 #eaeaea;
+}
+
+.blog-section {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 5rem;
+  box-shadow: inset 0 -1px 0 0 #eaeaea;
+}
+
+.contact-us-form {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 5rem;
+  box-shadow: inset 0 -1px 0 0 #eaeaea;
 }
 
 

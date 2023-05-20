@@ -80,15 +80,15 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div className='relevant-law-section section'>
+      <div className='relevant-law-section'>
         <h3>Relevant Law</h3>
         {/* blurb about some relevant law */}
       </div>
-      <div className='awards-certifications-section section'>
+      <div className='awards-certifications-section'>
         <h3>Awards & Certifications</h3>
         {/* mention and display awards and certifications */}
       </div>
-      <div className='blog-section section'>
+      <div className='blog-section'>
         <h3>Blog</h3>
         {/* maybe a snippet of the latest blog post and link to the blog page */}
       </div>
