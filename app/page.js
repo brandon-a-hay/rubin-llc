@@ -5,7 +5,9 @@ export default function Home() {
   return (
     <div className='main'>
       <div className='header'>
-        <Image src={'/logo-horizontal.svg'} alt='logo' width={250} height={79}></Image>
+        {/* todo make the image mobile friendly */}
+        {/* <Image src={'/logo-horizontal.svg'} alt='logo' width={250} height={79}></Image> */}
+        <h2>Rubin Law, P.C</h2>
       </div>
       <div className='banner-section'>
         <Image 
