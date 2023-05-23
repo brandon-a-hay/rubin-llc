@@ -1,8 +1,14 @@
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   box-shadow: inset 0 -1px 0 0 #eaeaea;
   height: 80px;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.header-links > a {
+  padding: 0px 5px;
 }
 
 button.btn {
@@ -192,7 +198,7 @@ button.btn-secondary:hover {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(25%, auto));
+  grid-template-columns: repeat(3, minmax(37%, auto));
   width: 100vw;
   max-width: 100%;
 }

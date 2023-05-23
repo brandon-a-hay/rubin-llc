@@ -6,6 +6,12 @@ export default function Home() {
     <div className='main'>
       <div className='header'>
         <Image src={'/logo-horizontal.svg'} alt='logo' width={250} height={79}></Image>
+        <div className='header-links'>
+          <a href="">Link1</a>
+          <a href="">Link2</a>
+          <a href="">Link3</a>
+          <a href="">Link4</a>
+        </div>
       </div>
       <div className='banner-section'>
         <Image 
