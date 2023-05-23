@@ -39,25 +39,26 @@ export default function Home() {
         </div>
 
         <div className='grid'>
+        <a
+            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            className='card'
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>Pre-File Consulting <span>-&gt;</span></h2>
+            <p>Learn more about Rubin Law&apos;s work in this area</p>
+          </a>
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             className='card'
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2>Practice Area 1 <span>-&gt;</span></h2>
+            <h2>Criminal Defense <span>-&gt;</span></h2>
             <p>Learn more about Rubin Law&apos;s work in this area</p>
           </a>
 
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            className='card'
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>Practice Area 2 <span>-&gt;</span></h2>
-            <p>Learn more about Rubin Law&apos;s work in this area</p>
-          </a>
+          
 
           <a
             href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -65,19 +66,11 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2>Practice Area 3 <span>-&gt;</span></h2>
+            <h2>Civil Rights Litigation <span>-&gt;</span></h2>
             <p>Learn more about Rubin Law&apos;s work in this area</p>
           </a>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            className='card'
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>Practice Area 4<span>-&gt;</span></h2>
-            <p>Learn more about Rubin Law&apos;s work in this area</p>
-          </a>
+          
         </div>
       </div>
       <div className='relevant-law-section'>
